@@ -1,0 +1,21 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import App from './App.jsx'
+import "./index.css";
+import More from "../public/Component/more.jsx";
+import Main from "../public/Component/main.jsx";
+import App from "./App.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route path="/home" element={<Main />} />
+          <Route index element={<More />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+);

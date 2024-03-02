@@ -1,0 +1,38 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.coantainer {
+  /* background: #ccc; */
+  /* border: 2px solid #ccc; */
+  display: flex;
+}
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+  /* width: 20px; */
+  /* height: 20px; */
+  width: 60%;
+  height: 50%;
+  object-fit: cover;
+}
+.text {
+  margin-top: 19%;
+  margin-left: 120px;
+  float: inline-start;
+  border: 2px solid red;
+}
+.about {
+  /* margin-bottom: 100%; */
+  background: #ccc;
+}
+.clicked {
+  align-items: center;
+
+  /* margin-top: -90%; */
+  /* border: 2px solid red; */
+  /* width: 500px; */
+}
